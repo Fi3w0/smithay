@@ -14,6 +14,17 @@
   <strong>A smithy for rusty Wayland compositors</strong>
 </p>
 
+> [!NOTE]
+> **This is a standby fork of [Smithay](https://github.com/Smithay/smithay), kept for [TideWM](https://github.com/Fi3w0/TideWM).**
+>
+> **TideWM does not use this fork.** It builds on vanilla upstream Smithay, pinned to a recent upstream revision in its `Cargo.toml`.
+>
+> The fork exists for one case only: a Smithay bug that blocks TideWM and can't be worked around through Smithay's public API. In that case TideWM would temporarily point at a small fix here and switch back to upstream as soon as upstream fixes the problem.
+>
+> Apart from this notice, `master` tracks upstream unchanged. It is only rebased when needed and carries as few commits as possible.
+>
+> For anything else (issues, questions, contributions), use [upstream Smithay](https://github.com/Smithay/smithay).
+
 ## Goals
 
 Smithay aims to provide building blocks to create Wayland compositors in Rust. While not
